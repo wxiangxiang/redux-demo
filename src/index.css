@@ -1,0 +1,26 @@
+ul,
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+.tabBar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.main {
+  height: 100%;
+  overflow: auto;
+  background-color: antiquewhite;
+}
+body,
+html,
+#root,
+.App {
+  height: 100%;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+}
